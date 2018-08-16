@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LeftView: UIViewController {
+class LeftViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

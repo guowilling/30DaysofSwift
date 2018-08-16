@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RightView: UIViewController {
+class RightViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

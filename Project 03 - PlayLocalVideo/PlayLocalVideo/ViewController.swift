@@ -23,8 +23,8 @@ class ViewController: UIViewController {
         video(image: "videoScreenshot06", title: "Lijiang Lugu Lake", source: "Allen - 20:30")
     ]
     
-    var playViewController = AVPlayerViewController()
-    var playerView = AVPlayer()
+    var playerViewController = AVPlayerViewController()
+    var player = AVPlayer()
   
     //MARK:- View Life Cycle
     override func viewDidLoad() {
@@ -41,20 +41,16 @@ class ViewController: UIViewController {
     
     @IBAction func playVideoButtonDidTouch(_ sender: AnyObject) {
         let path = Bundle.main.path(forResource: "emoji zone", ofType: "mp4")
-        playerView = AVPlayer(url: URL(fileURLWithPath: path!))
-        playViewController.player = playerView
-        self.present(playViewController, animated: true) {
-            self.playViewController.player?.play()
+        player = AVPlayer(url: URL(fileURLWithPath: path!))
+        playerViewController.player = player
+        self.present(playerViewController, animated: true) {
+            self.playerViewController.player?.play()
         }
     }
  }
 
 //MARK:- UIViewTableView DataSource & Delegate
 extension ViewController: UITableViewDataSource, UITableViewDelegate {
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 220
-    }
-    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 2
     }
@@ -70,5 +66,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         cell.videoTitleLabel.text = video.title
         cell.videoSourceLabel.text = video.source
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 220
     }
 }

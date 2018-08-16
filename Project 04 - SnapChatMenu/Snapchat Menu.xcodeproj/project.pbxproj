@@ -12,12 +12,12 @@
 		9FC2DE2E1C425AF100F0CB8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC2DE2C1C425AF100F0CB8D /* Main.storyboard */; };
 		9FC2DE331C425AF100F0CB8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC2DE321C425AF100F0CB8D /* Assets.xcassets */; };
 		9FC2DE361C425AF100F0CB8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC2DE341C425AF100F0CB8D /* LaunchScreen.storyboard */; };
-		9FC2DE5B1C42675C00F0CB8D /* LeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2DE591C42675C00F0CB8D /* LeftView.swift */; };
-		9FC2DE5C1C42675C00F0CB8D /* LeftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC2DE5A1C42675C00F0CB8D /* LeftView.xib */; };
-		9FC2DE5F1C42676800F0CB8D /* RightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2DE5D1C42676800F0CB8D /* RightView.swift */; };
-		9FC2DE601C42676800F0CB8D /* RightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC2DE5E1C42676800F0CB8D /* RightView.xib */; };
-		9FC2DE631C426A9500F0CB8D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2DE611C426A9500F0CB8D /* CameraView.swift */; };
-		9FC2DE641C426A9500F0CB8D /* CameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC2DE621C426A9500F0CB8D /* CameraView.xib */; };
+		9FC2DE5B1C42675C00F0CB8D /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2DE591C42675C00F0CB8D /* LeftViewController.swift */; };
+		9FC2DE5C1C42675C00F0CB8D /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC2DE5A1C42675C00F0CB8D /* LeftViewController.xib */; };
+		9FC2DE5F1C42676800F0CB8D /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2DE5D1C42676800F0CB8D /* RightViewController.swift */; };
+		9FC2DE601C42676800F0CB8D /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC2DE5E1C42676800F0CB8D /* RightViewController.xib */; };
+		9FC2DE631C426A9500F0CB8D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2DE611C426A9500F0CB8D /* CameraViewController.swift */; };
+		9FC2DE641C426A9500F0CB8D /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC2DE621C426A9500F0CB8D /* CameraViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +28,12 @@
 		9FC2DE321C425AF100F0CB8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FC2DE351C425AF100F0CB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FC2DE371C425AF100F0CB8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FC2DE591C42675C00F0CB8D /* LeftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftView.swift; sourceTree = "<group>"; };
-		9FC2DE5A1C42675C00F0CB8D /* LeftView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftView.xib; sourceTree = "<group>"; };
-		9FC2DE5D1C42676800F0CB8D /* RightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightView.swift; sourceTree = "<group>"; };
-		9FC2DE5E1C42676800F0CB8D /* RightView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightView.xib; sourceTree = "<group>"; };
-		9FC2DE611C426A9500F0CB8D /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
-		9FC2DE621C426A9500F0CB8D /* CameraView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraView.xib; sourceTree = "<group>"; };
+		9FC2DE591C42675C00F0CB8D /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		9FC2DE5A1C42675C00F0CB8D /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		9FC2DE5D1C42676800F0CB8D /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		9FC2DE5E1C42676800F0CB8D /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
+		9FC2DE611C426A9500F0CB8D /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		9FC2DE621C426A9500F0CB8D /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +68,12 @@
 			children = (
 				9FC2DE281C425AF100F0CB8D /* AppDelegate.swift */,
 				9FC2DE2A1C425AF100F0CB8D /* ViewController.swift */,
-				9FC2DE591C42675C00F0CB8D /* LeftView.swift */,
-				9FC2DE5A1C42675C00F0CB8D /* LeftView.xib */,
-				9FC2DE611C426A9500F0CB8D /* CameraView.swift */,
-				9FC2DE621C426A9500F0CB8D /* CameraView.xib */,
-				9FC2DE5D1C42676800F0CB8D /* RightView.swift */,
-				9FC2DE5E1C42676800F0CB8D /* RightView.xib */,
+				9FC2DE591C42675C00F0CB8D /* LeftViewController.swift */,
+				9FC2DE5A1C42675C00F0CB8D /* LeftViewController.xib */,
+				9FC2DE611C426A9500F0CB8D /* CameraViewController.swift */,
+				9FC2DE621C426A9500F0CB8D /* CameraViewController.xib */,
+				9FC2DE5D1C42676800F0CB8D /* RightViewController.swift */,
+				9FC2DE5E1C42676800F0CB8D /* RightViewController.xib */,
 				9FC2DE2C1C425AF100F0CB8D /* Main.storyboard */,
 				9FC2DE321C425AF100F0CB8D /* Assets.xcassets */,
 				9FC2DE341C425AF100F0CB8D /* LaunchScreen.storyboard */,
@@ -114,7 +114,9 @@
 				TargetAttributes = {
 					9FC2DE241C425AF100F0CB8D = {
 						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0830;
+						DevelopmentTeam = L8C6M6B8E9;
+						LastSwiftMigration = 0940;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -142,11 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC2DE361C425AF100F0CB8D /* LaunchScreen.storyboard in Resources */,
-				9FC2DE601C42676800F0CB8D /* RightView.xib in Resources */,
+				9FC2DE601C42676800F0CB8D /* RightViewController.xib in Resources */,
 				9FC2DE331C425AF100F0CB8D /* Assets.xcassets in Resources */,
-				9FC2DE641C426A9500F0CB8D /* CameraView.xib in Resources */,
+				9FC2DE641C426A9500F0CB8D /* CameraViewController.xib in Resources */,
 				9FC2DE2E1C425AF100F0CB8D /* Main.storyboard in Resources */,
-				9FC2DE5C1C42675C00F0CB8D /* LeftView.xib in Resources */,
+				9FC2DE5C1C42675C00F0CB8D /* LeftViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,9 +161,9 @@
 			files = (
 				9FC2DE2B1C425AF100F0CB8D /* ViewController.swift in Sources */,
 				9FC2DE291C425AF100F0CB8D /* AppDelegate.swift in Sources */,
-				9FC2DE5F1C42676800F0CB8D /* RightView.swift in Sources */,
-				9FC2DE631C426A9500F0CB8D /* CameraView.swift in Sources */,
-				9FC2DE5B1C42675C00F0CB8D /* LeftView.swift in Sources */,
+				9FC2DE5F1C42676800F0CB8D /* RightViewController.swift in Sources */,
+				9FC2DE631C426A9500F0CB8D /* CameraViewController.swift in Sources */,
+				9FC2DE5B1C42675C00F0CB8D /* LeftViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,12 +275,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L8C6M6B8E9;
 				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = "Snapchat Menu/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.appkitchen.Snapchat-Menu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "41eaf476-bb76-4cb9-b2e9-b856cc3e9d97";
+				PROVISIONING_PROFILE_SPECIFIER = "PP For All";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -287,12 +295,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L8C6M6B8E9;
 				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = "Snapchat Menu/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.appkitchen.Snapchat-Menu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "41eaf476-bb76-4cb9-b2e9-b856cc3e9d97";
+				PROVISIONING_PROFILE_SPECIFIER = "PP For All";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

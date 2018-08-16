@@ -10,7 +10,6 @@ import UIKit
 import CoreLocation
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
-
     @IBOutlet weak var locationLabel: UILabel!
     
     var locationManager: CLLocationManager!
@@ -24,47 +23,35 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     @IBAction func myLocationButtonDidTouch(_ sender: AnyObject) {
-        
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.requestAlwaysAuthorization()
         locationManager.startUpdatingLocation()
-        
-    }
-
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        
-      self.locationLabel.text = "Error while updating location " + error.localizedDescription
+        self.locationLabel.text = "Error while updating location " + error.localizedDescription
         
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         CLGeocoder().reverseGeocodeLocation(manager.location!, completionHandler: {(placemarks, error)->Void in
-            
             if (error != nil) {
-               self.locationLabel.text = "Reverse geocoder failed with error" + error!.localizedDescription
+                self.locationLabel.text = "Reverse geocoder failed with error" + error!.localizedDescription
                 return
             }
-            
             if placemarks!.count > 0 {
-                let pm = placemarks![0] 
-                self.displayLocationInfo(pm)
+                let placemark = placemarks![0]
+                self.displayLocationInfo(placemark)
             } else {
-               self.locationLabel.text = "Problem with the data received from geocoder"
+                self.locationLabel.text = "Problem with the data received from geocoder"
             }
         })
     }
     
     func displayLocationInfo(_ placemark: CLPlacemark?) {
         if let containsPlacemark = placemark {
-            //stop updating location to save battery life
             locationManager.stopUpdatingLocation()
             
             let locality = (containsPlacemark.locality != nil) ? containsPlacemark.locality : ""
@@ -73,14 +60,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             let country = (containsPlacemark.country != nil) ? containsPlacemark.country : ""
             
             self.locationLabel.text = postalCode! + " " + locality!
-            
             self.locationLabel.text?.append("\n" + administrativeArea! + ", " + country!)
         }
-        
     }
-
-    
-    
-
 }
-
