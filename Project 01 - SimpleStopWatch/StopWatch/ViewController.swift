@@ -10,8 +10,6 @@ import UIKit
 
 
 class ViewController: UIViewController {
-    
-    
     @IBOutlet weak var playBtn: UIButton!
     @IBOutlet weak var pauseBtn: UIButton!
     @IBOutlet weak var timeLabel: UILabel!

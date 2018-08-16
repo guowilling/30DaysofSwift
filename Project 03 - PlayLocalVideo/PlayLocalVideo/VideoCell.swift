@@ -15,7 +15,6 @@ struct video {
 }
 
 class VideoCell: UITableViewCell {
-
     @IBOutlet weak var videoScreenshot: UIImageView!
     @IBOutlet weak var videoTitleLabel: UILabel!
     @IBOutlet weak var videoSourceLabel: UILabel!
@@ -30,5 +29,4 @@ class VideoCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
 }
