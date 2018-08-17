@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Snapchat Menu
-//
-//  Created by Allen on 16/1/10.
-//  Copyright © 2016年 Allen. All rights reserved.
-//
 
 import UIKit
 import CoreData
@@ -47,14 +40,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: - Core Data stack
 
     lazy var applicationDocumentsDirectory: URL = {
-        // The directory the application uses to store the Core Data store file. This code uses a directory named "me.appkitchen.Snapchat_Menu" in the application's documents Application Support directory.
+        // The directory the application uses to store the Core Data store file. This code uses a directory named "me.appkitchen.Carousel_Effect" in the application's documents Application Support directory.
         let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
         return urls[urls.count-1]
     }()
 
     lazy var managedObjectModel: NSManagedObjectModel = {
         // The managed object model for the application. This property is not optional. It is a fatal error for the application not to be able to find and load its model.
-        let modelURL = Bundle.main.url(forResource: "Snapchat_Menu", withExtension: "momd")!
+        let modelURL = Bundle.main.url(forResource: "Carousel_Effect", withExtension: "momd")!
         return NSManagedObjectModel(contentsOf: modelURL)!
     }()
 
@@ -69,8 +62,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         } catch {
             // Report any error we got.
             var dict = [String: AnyObject]()
-            dict[NSLocalizedDescriptionKey] = "Failed to initialize the application's saved data" as AnyObject
-            dict[NSLocalizedFailureReasonErrorKey] = failureReason as AnyObject
+            dict[NSLocalizedDescriptionKey] = "Failed to initialize the application's saved data" as AnyObject?
+            dict[NSLocalizedFailureReasonErrorKey] = failureReason as AnyObject?
 
             dict[NSUnderlyingErrorKey] = error as NSError
             let wrappedError = NSError(domain: "YOUR_ERROR_DOMAIN", code: 9999, userInfo: dict)

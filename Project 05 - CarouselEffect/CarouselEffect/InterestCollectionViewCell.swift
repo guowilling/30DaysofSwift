@@ -1,24 +1,15 @@
-//
-//  InterestCollectionViewCell.swift
-//  Carousel Effect
-//
-//  Created by Allen on 16/1/12.
-//  Copyright © 2016年 Allen. All rights reserved.
-//
 
 import UIKit
 
 class InterestCollectionViewCell: UICollectionViewCell {
-    
+    @IBOutlet weak var featuredImageView: UIImageView!
+    @IBOutlet weak var interestTitleLabel: UILabel!
     
     var interest: Interest! {
         didSet {
             updateUI()
         }
     }
-    
-    @IBOutlet weak var featuredImageView: UIImageView!
-    @IBOutlet weak var interestTitleLabel: UILabel!
     
     fileprivate func updateUI() {
         interestTitleLabel?.text! = interest.title

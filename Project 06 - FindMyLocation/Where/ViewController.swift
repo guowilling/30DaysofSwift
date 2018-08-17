@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Where
-//
-//  Created by Allen on 16/1/12.
-//  Copyright © 2016年 Allen. All rights reserved.
-//
 
 import UIKit
 import CoreLocation

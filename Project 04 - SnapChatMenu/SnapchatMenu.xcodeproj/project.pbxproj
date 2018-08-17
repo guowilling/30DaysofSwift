@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9FC2DE251C425AF100F0CB8D /* Snapchat Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snapchat Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC2DE251C425AF100F0CB8D /* SnapchatMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapchatMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC2DE281C425AF100F0CB8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FC2DE2A1C425AF100F0CB8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9FC2DE2D1C425AF100F0CB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		9FC2DE1C1C425AF100F0CB8D = {
 			isa = PBXGroup;
 			children = (
-				9FC2DE271C425AF100F0CB8D /* Snapchat Menu */,
+				9FC2DE271C425AF100F0CB8D /* SnapchatMenu */,
 				9FC2DE261C425AF100F0CB8D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +58,12 @@
 		9FC2DE261C425AF100F0CB8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FC2DE251C425AF100F0CB8D /* Snapchat Menu.app */,
+				9FC2DE251C425AF100F0CB8D /* SnapchatMenu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9FC2DE271C425AF100F0CB8D /* Snapchat Menu */ = {
+		9FC2DE271C425AF100F0CB8D /* SnapchatMenu */ = {
 			isa = PBXGroup;
 			children = (
 				9FC2DE281C425AF100F0CB8D /* AppDelegate.swift */,
@@ -79,15 +79,15 @@
 				9FC2DE341C425AF100F0CB8D /* LaunchScreen.storyboard */,
 				9FC2DE371C425AF100F0CB8D /* Info.plist */,
 			);
-			path = "Snapchat Menu";
+			path = SnapchatMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9FC2DE241C425AF100F0CB8D /* Snapchat Menu */ = {
+		9FC2DE241C425AF100F0CB8D /* SnapchatMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FC2DE501C425AF100F0CB8D /* Build configuration list for PBXNativeTarget "Snapchat Menu" */;
+			buildConfigurationList = 9FC2DE501C425AF100F0CB8D /* Build configuration list for PBXNativeTarget "SnapchatMenu" */;
 			buildPhases = (
 				9FC2DE211C425AF100F0CB8D /* Sources */,
 				9FC2DE221C425AF100F0CB8D /* Frameworks */,
@@ -97,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = "Snapchat Menu";
+			name = SnapchatMenu;
 			productName = "Snapchat Menu";
-			productReference = 9FC2DE251C425AF100F0CB8D /* Snapchat Menu.app */;
+			productReference = 9FC2DE251C425AF100F0CB8D /* SnapchatMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9FC2DE201C425AF100F0CB8D /* Build configuration list for PBXProject "Snapchat Menu" */;
+			buildConfigurationList = 9FC2DE201C425AF100F0CB8D /* Build configuration list for PBXProject "SnapchatMenu" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -133,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9FC2DE241C425AF100F0CB8D /* Snapchat Menu */,
+				9FC2DE241C425AF100F0CB8D /* SnapchatMenu */,
 			);
 		};
 /* End PBXProject section */
@@ -279,7 +279,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = L8C6M6B8E9;
 				ENABLE_TESTABILITY = NO;
-				INFOPLIST_FILE = "Snapchat Menu/Info.plist";
+				INFOPLIST_FILE = SnapchatMenu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.appkitchen.Snapchat-Menu";
@@ -299,7 +299,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = L8C6M6B8E9;
 				ENABLE_TESTABILITY = NO;
-				INFOPLIST_FILE = "Snapchat Menu/Info.plist";
+				INFOPLIST_FILE = SnapchatMenu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.appkitchen.Snapchat-Menu";
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FC2DE201C425AF100F0CB8D /* Build configuration list for PBXProject "Snapchat Menu" */ = {
+		9FC2DE201C425AF100F0CB8D /* Build configuration list for PBXProject "SnapchatMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FC2DE4E1C425AF100F0CB8D /* Debug */,
@@ -322,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FC2DE501C425AF100F0CB8D /* Build configuration list for PBXNativeTarget "Snapchat Menu" */ = {
+		9FC2DE501C425AF100F0CB8D /* Build configuration list for PBXNativeTarget "SnapchatMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FC2DE511C425AF100F0CB8D /* Debug */,

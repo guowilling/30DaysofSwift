@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  LoginAnimation
-//
-//  Created by Allen on 16/1/18.
-//  Copyright © 2016年 Allen. All rights reserved.
-//
 
 import UIKit
 
@@ -15,9 +8,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var centerAlignPassword: NSLayoutConstraint!
     @IBOutlet weak var loginButton: UIButton!
     
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return UIStatusBarStyle.LightContent
-    }
+//    func preferredStatusBarStyle() -> UIStatusBarStyle {
+//        return UIStatusBarStyle.lightContent
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +20,7 @@ class ViewController: UIViewController {
         loginButton.layer.cornerRadius = 5
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         centerAlignUsername.constant -= view.bounds.width
@@ -35,33 +28,33 @@ class ViewController: UIViewController {
         loginButton.alpha = 0
     }
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        UIView.animateWithDuration(0.5, delay: 0.00, options: UIViewAnimationOptions.CurveEaseOut, animations: {
+        UIView.animate(withDuration: 0.5, delay: 0.00, options: UIViewAnimationOptions.curveEaseOut, animations: {
             self.centerAlignUsername.constant += self.view.bounds.width
             self.view.layoutIfNeeded()
             }, completion: nil)
         
-        UIView.animateWithDuration(0.5, delay: 0.10, options: .CurveEaseOut, animations: {
+        UIView.animate(withDuration: 0.5, delay: 0.10, options: .curveEaseOut, animations: {
             self.centerAlignPassword.constant += self.view.bounds.width
             self.view.layoutIfNeeded()
             }, completion: nil)
         
-        UIView.animateWithDuration(0.5, delay: 0.20, options: .CurveEaseOut, animations: {
+        UIView.animate(withDuration: 0.5, delay: 0.20, options: .curveEaseOut, animations: {
             self.loginButton.alpha = 1
             }, completion: nil)
     }
-
+    
     @IBAction func loginButtonDidTouch(sender: UIButton) {
         let bounds = self.loginButton.bounds
-        UIView.animateWithDuration(1.0, delay: 0.0, usingSpringWithDamping: 0.2, initialSpringVelocity: 10, options: UIViewAnimationOptions.CurveLinear, animations: {
+        UIView.animate(withDuration: 1.0, delay: 0.0, usingSpringWithDamping: 0.2, initialSpringVelocity: 10, options: UIViewAnimationOptions.curveLinear, animations: {
             self.loginButton.bounds = CGRect(x: bounds.origin.x - 20, y: bounds.origin.y, width: bounds.size.width + 60, height: bounds.size.height)
-            self.loginButton.enabled = false
-			}, completion: { finished in self.loginButton.enabled = true })
+            self.loginButton.isEnabled = false
+        }, completion: { finished in self.loginButton.isEnabled = true })
     }
     
     @IBAction func backButtonDidTouch(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
     }
 }

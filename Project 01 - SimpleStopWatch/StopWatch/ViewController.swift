@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  StopWatch
-//
-//  Created by Allen on 16/1/4.
-//  Copyright © 2016年 Allen. All rights reserved.
-//
 
 import UIKit
 
@@ -21,7 +14,7 @@ class ViewController: UIViewController {
     func preferredStatusBarStyle() -> UIStatusBarStyle {
         return UIStatusBarStyle.lightContent
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         

@@ -1,10 +1,3 @@
-//
-//  VideoSplashViewController.swift
-//  VideoSplash
-//
-//  Created by Toygar Dündaralp on 8/3/15.
-//  Copyright (c) 2015 Toygar Dündaralp. All rights reserved.
-//
 
 import UIKit
 import MediaPlayer
