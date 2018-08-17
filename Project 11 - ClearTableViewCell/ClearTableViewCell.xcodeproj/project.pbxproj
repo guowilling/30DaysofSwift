@@ -8,67 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		9FB1639E1C4B68F1004B3E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1639D1C4B68F1004B3E4E /* AppDelegate.swift */; };
-		9FB163A01C4B68F1004B3E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1639F1C4B68F1004B3E4E /* ViewController.swift */; };
 		9FB163A31C4B68F1004B3E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB163A11C4B68F1004B3E4E /* Main.storyboard */; };
 		9FB163A51C4B68F1004B3E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB163A41C4B68F1004B3E4E /* Assets.xcassets */; };
 		9FB163A81C4B68F1004B3E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB163A61C4B68F1004B3E4E /* LaunchScreen.storyboard */; };
-		9FB163B31C4B68F1004B3E4E /* ClearTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB163B21C4B68F1004B3E4E /* ClearTableViewCellTests.swift */; };
-		9FB163BE1C4B68F1004B3E4E /* ClearTableViewCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB163BD1C4B68F1004B3E4E /* ClearTableViewCellUITests.swift */; };
 		9FB163CC1C4B69F7004B3E4E /* ClearTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB163CB1C4B69F7004B3E4E /* ClearTableViewController.swift */; };
 		9FB163CE1C4B93F7004B3E4E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB163CD1C4B93F7004B3E4E /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9FB163AF1C4B68F1004B3E4E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FB163921C4B68F1004B3E4E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FB163991C4B68F1004B3E4E;
-			remoteInfo = ClearTableViewCell;
-		};
-		9FB163BA1C4B68F1004B3E4E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FB163921C4B68F1004B3E4E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FB163991C4B68F1004B3E4E;
-			remoteInfo = ClearTableViewCell;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		9FB1639A1C4B68F1004B3E4E /* ClearTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB1639D1C4B68F1004B3E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FB1639F1C4B68F1004B3E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9FB163A21C4B68F1004B3E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FB163A41C4B68F1004B3E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FB163A71C4B68F1004B3E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FB163A91C4B68F1004B3E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FB163AE1C4B68F1004B3E4E /* ClearTableViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearTableViewCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FB163B21C4B68F1004B3E4E /* ClearTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearTableViewCellTests.swift; sourceTree = "<group>"; };
-		9FB163B41C4B68F1004B3E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FB163B91C4B68F1004B3E4E /* ClearTableViewCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearTableViewCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FB163BD1C4B68F1004B3E4E /* ClearTableViewCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearTableViewCellUITests.swift; sourceTree = "<group>"; };
-		9FB163BF1C4B68F1004B3E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FB163CB1C4B69F7004B3E4E /* ClearTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearTableViewController.swift; sourceTree = "<group>"; };
 		9FB163CD1C4B93F7004B3E4E /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9FB163971C4B68F1004B3E4E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FB163AB1C4B68F1004B3E4E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FB163B61C4B68F1004B3E4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				9FB1639C1C4B68F1004B3E4E /* ClearTableViewCell */,
-				9FB163B11C4B68F1004B3E4E /* ClearTableViewCellTests */,
-				9FB163BC1C4B68F1004B3E4E /* ClearTableViewCellUITests */,
 				9FB1639B1C4B68F1004B3E4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				9FB1639A1C4B68F1004B3E4E /* ClearTableViewCell.app */,
-				9FB163AE1C4B68F1004B3E4E /* ClearTableViewCellTests.xctest */,
-				9FB163B91C4B68F1004B3E4E /* ClearTableViewCellUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				9FB1639D1C4B68F1004B3E4E /* AppDelegate.swift */,
-				9FB1639F1C4B68F1004B3E4E /* ViewController.swift */,
 				9FB163A11C4B68F1004B3E4E /* Main.storyboard */,
 				9FB163CB1C4B69F7004B3E4E /* ClearTableViewController.swift */,
 				9FB163CD1C4B93F7004B3E4E /* TableViewCell.swift */,
@@ -111,24 +65,6 @@
 				9FB163A91C4B68F1004B3E4E /* Info.plist */,
 			);
 			path = ClearTableViewCell;
-			sourceTree = "<group>";
-		};
-		9FB163B11C4B68F1004B3E4E /* ClearTableViewCellTests */ = {
-			isa = PBXGroup;
-			children = (
-				9FB163B21C4B68F1004B3E4E /* ClearTableViewCellTests.swift */,
-				9FB163B41C4B68F1004B3E4E /* Info.plist */,
-			);
-			path = ClearTableViewCellTests;
-			sourceTree = "<group>";
-		};
-		9FB163BC1C4B68F1004B3E4E /* ClearTableViewCellUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9FB163BD1C4B68F1004B3E4E /* ClearTableViewCellUITests.swift */,
-				9FB163BF1C4B68F1004B3E4E /* Info.plist */,
-			);
-			path = ClearTableViewCellUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,42 +87,6 @@
 			productReference = 9FB1639A1C4B68F1004B3E4E /* ClearTableViewCell.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9FB163AD1C4B68F1004B3E4E /* ClearTableViewCellTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FB163C51C4B68F1004B3E4E /* Build configuration list for PBXNativeTarget "ClearTableViewCellTests" */;
-			buildPhases = (
-				9FB163AA1C4B68F1004B3E4E /* Sources */,
-				9FB163AB1C4B68F1004B3E4E /* Frameworks */,
-				9FB163AC1C4B68F1004B3E4E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9FB163B01C4B68F1004B3E4E /* PBXTargetDependency */,
-			);
-			name = ClearTableViewCellTests;
-			productName = ClearTableViewCellTests;
-			productReference = 9FB163AE1C4B68F1004B3E4E /* ClearTableViewCellTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9FB163B81C4B68F1004B3E4E /* ClearTableViewCellUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FB163C81C4B68F1004B3E4E /* Build configuration list for PBXNativeTarget "ClearTableViewCellUITests" */;
-			buildPhases = (
-				9FB163B51C4B68F1004B3E4E /* Sources */,
-				9FB163B61C4B68F1004B3E4E /* Frameworks */,
-				9FB163B71C4B68F1004B3E4E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9FB163BB1C4B68F1004B3E4E /* PBXTargetDependency */,
-			);
-			name = ClearTableViewCellUITests;
-			productName = ClearTableViewCellUITests;
-			productReference = 9FB163B91C4B68F1004B3E4E /* ClearTableViewCellUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,14 +99,8 @@
 				TargetAttributes = {
 					9FB163991C4B68F1004B3E4E = {
 						CreatedOnToolsVersion = 7.2;
-					};
-					9FB163AD1C4B68F1004B3E4E = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 9FB163991C4B68F1004B3E4E;
-					};
-					9FB163B81C4B68F1004B3E4E = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 9FB163991C4B68F1004B3E4E;
+						DevelopmentTeam = L8C6M6B8E9;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -224,8 +118,6 @@
 			projectRoot = "";
 			targets = (
 				9FB163991C4B68F1004B3E4E /* ClearTableViewCell */,
-				9FB163AD1C4B68F1004B3E4E /* ClearTableViewCellTests */,
-				9FB163B81C4B68F1004B3E4E /* ClearTableViewCellUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,20 +133,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FB163AC1C4B68F1004B3E4E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FB163B71C4B68F1004B3E4E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -262,43 +140,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FB163A01C4B68F1004B3E4E /* ViewController.swift in Sources */,
 				9FB163CE1C4B93F7004B3E4E /* TableViewCell.swift in Sources */,
 				9FB1639E1C4B68F1004B3E4E /* AppDelegate.swift in Sources */,
 				9FB163CC1C4B69F7004B3E4E /* ClearTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FB163AA1C4B68F1004B3E4E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FB163B31C4B68F1004B3E4E /* ClearTableViewCellTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FB163B51C4B68F1004B3E4E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FB163BE1C4B68F1004B3E4E /* ClearTableViewCellUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9FB163B01C4B68F1004B3E4E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FB163991C4B68F1004B3E4E /* ClearTableViewCell */;
-			targetProxy = 9FB163AF1C4B68F1004B3E4E /* PBXContainerItemProxy */;
-		};
-		9FB163BB1C4B68F1004B3E4E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FB163991C4B68F1004B3E4E /* ClearTableViewCell */;
-			targetProxy = 9FB163BA1C4B68F1004B3E4E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9FB163A11C4B68F1004B3E4E /* Main.storyboard */ = {
@@ -422,11 +270,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L8C6M6B8E9;
 				INFOPLIST_FILE = ClearTableViewCell/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.ClearTableViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ffb223b7-b498-46e0-af66-aa9a0a5e2883";
+				PROVISIONING_PROFILE_SPECIFIER = "PP For All";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -435,60 +287,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L8C6M6B8E9;
 				INFOPLIST_FILE = ClearTableViewCell/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.ClearTableViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ffb223b7-b498-46e0-af66-aa9a0a5e2883";
+				PROVISIONING_PROFILE_SPECIFIER = "PP For All";
 				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		9FB163C61C4B68F1004B3E4E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ClearTableViewCellTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.ClearTableViewCellTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClearTableViewCell.app/ClearTableViewCell";
-			};
-			name = Debug;
-		};
-		9FB163C71C4B68F1004B3E4E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ClearTableViewCellTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.ClearTableViewCellTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClearTableViewCell.app/ClearTableViewCell";
-			};
-			name = Release;
-		};
-		9FB163C91C4B68F1004B3E4E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ClearTableViewCellUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.ClearTableViewCellUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ClearTableViewCell;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		9FB163CA1C4B68F1004B3E4E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ClearTableViewCellUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.ClearTableViewCellUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ClearTableViewCell;
-				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
@@ -509,24 +317,6 @@
 			buildConfigurations = (
 				9FB163C31C4B68F1004B3E4E /* Debug */,
 				9FB163C41C4B68F1004B3E4E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FB163C51C4B68F1004B3E4E /* Build configuration list for PBXNativeTarget "ClearTableViewCellTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FB163C61C4B68F1004B3E4E /* Debug */,
-				9FB163C71C4B68F1004B3E4E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FB163C81C4B68F1004B3E4E /* Build configuration list for PBXNativeTarget "ClearTableViewCellUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FB163C91C4B68F1004B3E4E /* Debug */,
-				9FB163CA1C4B68F1004B3E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
