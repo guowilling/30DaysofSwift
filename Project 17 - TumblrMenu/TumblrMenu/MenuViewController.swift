@@ -1,15 +1,7 @@
-//
-//  MenuViewController.swift
-//  TumblrMenu
-//
-//  Created by Allen on 16/1/24.
-//  Copyright © 2016年 Allen. All rights reserved.
-//
 
 import UIKit
 
 class MenuViewController: UIViewController {
-    
     let transitionManager = MenuTransitionManager()
     
     @IBOutlet weak var textButton: UIButton!
@@ -30,23 +22,9 @@ class MenuViewController: UIViewController {
     @IBOutlet weak var audioButton: UIButton!
     @IBOutlet weak var audioLabel: UILabel!
     
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.transitioningDelegate = self.transitionManager
     }
-    
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        
-        return UIStatusBarStyle.LightContent
-        
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-    
-
 }

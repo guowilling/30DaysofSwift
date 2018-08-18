@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9FC118F41C4D5611007F9E8D /* animateTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animateTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC118F41C4D5611007F9E8D /* AnimateTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimateTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC118F71C4D5611007F9E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FC118FC1C4D5611007F9E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FC118FE1C4D5611007F9E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		9FC118EB1C4D5611007F9E8D = {
 			isa = PBXGroup;
 			children = (
-				9FC118F61C4D5611007F9E8D /* animateTable */,
+				9FC118F61C4D5611007F9E8D /* AnimateTable */,
 				9FC118F51C4D5611007F9E8D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		9FC118F51C4D5611007F9E8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FC118F41C4D5611007F9E8D /* animateTable.app */,
+				9FC118F41C4D5611007F9E8D /* AnimateTable.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9FC118F61C4D5611007F9E8D /* animateTable */ = {
+		9FC118F61C4D5611007F9E8D /* AnimateTable */ = {
 			isa = PBXGroup;
 			children = (
 				9FC118F71C4D5611007F9E8D /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				9FC119001C4D5611007F9E8D /* LaunchScreen.storyboard */,
 				9FC119031C4D5611007F9E8D /* Info.plist */,
 			);
-			path = animateTable;
+			path = AnimateTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9FC118F31C4D5611007F9E8D /* animateTable */ = {
+		9FC118F31C4D5611007F9E8D /* AnimateTable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FC1191C1C4D5611007F9E8D /* Build configuration list for PBXNativeTarget "animateTable" */;
+			buildConfigurationList = 9FC1191C1C4D5611007F9E8D /* Build configuration list for PBXNativeTarget "AnimateTable" */;
 			buildPhases = (
 				9FC118F01C4D5611007F9E8D /* Sources */,
 				9FC118F11C4D5611007F9E8D /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = animateTable;
+			name = AnimateTable;
 			productName = animateTable;
-			productReference = 9FC118F41C4D5611007F9E8D /* animateTable.app */;
+			productReference = 9FC118F41C4D5611007F9E8D /* AnimateTable.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9FC118EF1C4D5611007F9E8D /* Build configuration list for PBXProject "animateTable" */;
+			buildConfigurationList = 9FC118EF1C4D5611007F9E8D /* Build configuration list for PBXProject "AnimateTable" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9FC118F31C4D5611007F9E8D /* animateTable */,
+				9FC118F31C4D5611007F9E8D /* AnimateTable */,
 			);
 		};
 /* End PBXProject section */
@@ -264,7 +264,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = L8C6M6B8E9;
-				INFOPLIST_FILE = animateTable/Info.plist;
+				INFOPLIST_FILE = AnimateTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.animateTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -280,7 +280,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = L8C6M6B8E9;
-				INFOPLIST_FILE = animateTable/Info.plist;
+				INFOPLIST_FILE = AnimateTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.animateTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,7 +293,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FC118EF1C4D5611007F9E8D /* Build configuration list for PBXProject "animateTable" */ = {
+		9FC118EF1C4D5611007F9E8D /* Build configuration list for PBXProject "AnimateTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FC1191A1C4D5611007F9E8D /* Debug */,
@@ -302,7 +302,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FC1191C1C4D5611007F9E8D /* Build configuration list for PBXNativeTarget "animateTable" */ = {
+		9FC1191C1C4D5611007F9E8D /* Build configuration list for PBXNativeTarget "AnimateTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FC1191D1C4D5611007F9E8D /* Debug */,

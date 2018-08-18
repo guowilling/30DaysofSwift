@@ -1,22 +1,12 @@
-//
-//  MenuTransitionManager.swift
-//  TumblrMenu
-//
-//  Created by Allen on 16/1/24.
-//  Copyright © 2016年 Allen. All rights reserved.
-//
 
 import UIKit
 
 class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate {
-
     private var presenting = false
     
-    func animateTransition(transitionContext: UIViewControllerContextTransitioning) {
-    
-        let container = transitionContext.containerView()
-        
-        let screens : (from:UIViewController, to:UIViewController) = (transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey)!, transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey)!)
+    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+        let container = transitionContext.containerView
+        let screens : (from:UIViewController, to:UIViewController) = (transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from)!, transitionContext.viewController(forKey: UITransitionContextViewControllerKey.to)!)
         
         let menuViewController = !self.presenting ? screens.from as! MenuViewController : screens.to as! MenuViewController
         let bottomViewController = !self.presenting ? screens.to as UIViewController : screens.from as UIViewController
@@ -25,46 +15,30 @@ class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UI
         let bottomView = bottomViewController.view
         
         if (self.presenting) {
-        
-            self.offStageMenuController(menuViewController)
-            
+            self.offStageMenuController(menuViewController: menuViewController)
         }
         
-        container!.addSubview(bottomView)
-        container!.addSubview(menuView)
+        container.addSubview(bottomView!)
+        container.addSubview(menuView!)
         
-        let duration = self.transitionDuration(transitionContext)
+        let duration = self.transitionDuration(using: transitionContext)
         
-        UIView.animateWithDuration(duration, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.8, options: [], animations: {
-            
-            if (self.presenting){
-                
-                self.onStageMenuController(menuViewController)
-                
+        UIView.animate(withDuration: duration, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.8, options: [], animations: {
+            if (self.presenting) {
+                self.onStageMenuController(menuViewController: menuViewController)
             } else {
-                
-                self.offStageMenuController(menuViewController)
-                
-            }
-            
-            }, completion: { finished in
-                
+                self.offStageMenuController(menuViewController: menuViewController)
+            }}, completion: { finished in
                 transitionContext.completeTransition(true)
-                UIApplication.sharedApplication().keyWindow!.addSubview(screens.to.view)
-                
+                UIApplication.shared.keyWindow!.addSubview(screens.to.view)
         })
-
-        
-        
     }
     
-    
     func offstage(amount: CGFloat) ->CGAffineTransform {
-        return CGAffineTransformMakeTranslation(amount, 0)
+        return CGAffineTransform(translationX: amount, y: 0)
     }
     
     func offStageMenuController(menuViewController: MenuViewController) {
-        
         if !presenting{
             menuViewController.view.alpha = 0
         }
@@ -72,62 +46,52 @@ class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UI
         let middleRowOffset : CGFloat = 150
         let bottomRowOffset  : CGFloat = 50
         
-        menuViewController.textButton.transform = self.offstage(-topRowOffset)
-        menuViewController.textLabel.transform = self.offstage(-topRowOffset)
+        menuViewController.textButton.transform = self.offstage(amount: -topRowOffset)
+        menuViewController.textLabel.transform = self.offstage(amount: -topRowOffset)
         
-        menuViewController.quoteButton.transform = self.offstage(-middleRowOffset)
-        menuViewController.quoteLabel.transform = self.offstage(-middleRowOffset)
+        menuViewController.quoteButton.transform = self.offstage(amount: -middleRowOffset)
+        menuViewController.quoteLabel.transform = self.offstage(amount: -middleRowOffset)
         
-        menuViewController.chatButton.transform = self.offstage(-bottomRowOffset)
-        menuViewController.chatLabel.transform = self.offstage(-bottomRowOffset)
+        menuViewController.chatButton.transform = self.offstage(amount: -bottomRowOffset)
+        menuViewController.chatLabel.transform = self.offstage(amount: -bottomRowOffset)
         
-        menuViewController.photoButton.transform = self.offstage(topRowOffset)
-        menuViewController.photoLabel.transform = self.offstage(topRowOffset)
+        menuViewController.photoButton.transform = self.offstage(amount: topRowOffset)
+        menuViewController.photoLabel.transform = self.offstage(amount: topRowOffset)
         
-        menuViewController.linkButton.transform = self.offstage(middleRowOffset)
-        menuViewController.linkLabel.transform = self.offstage(middleRowOffset)
+        menuViewController.linkButton.transform = self.offstage(amount: middleRowOffset)
+        menuViewController.linkLabel.transform = self.offstage(amount: middleRowOffset)
         
-        menuViewController.audioButton.transform = self.offstage(bottomRowOffset)
-        menuViewController.audioLabel.transform = self.offstage(bottomRowOffset)
-        
+        menuViewController.audioButton.transform = self.offstage(amount: bottomRowOffset)
+        menuViewController.audioLabel.transform = self.offstage(amount: bottomRowOffset)
     }
     
     func onStageMenuController(menuViewController: MenuViewController) {
-     
-        
         menuViewController.view.alpha = 1
-        
-        menuViewController.textButton.transform = CGAffineTransformIdentity
-        menuViewController.textLabel.transform = CGAffineTransformIdentity
-        menuViewController.quoteButton.transform = CGAffineTransformIdentity
-        menuViewController.quoteLabel.transform = CGAffineTransformIdentity
-        menuViewController.chatButton.transform = CGAffineTransformIdentity
-        menuViewController.chatLabel.transform = CGAffineTransformIdentity
-        menuViewController.photoButton.transform = CGAffineTransformIdentity
-        menuViewController.photoLabel.transform = CGAffineTransformIdentity
-        menuViewController.linkButton.transform = CGAffineTransformIdentity
-        menuViewController.linkLabel.transform = CGAffineTransformIdentity
-        menuViewController.audioButton.transform = CGAffineTransformIdentity
-        menuViewController.audioLabel.transform = CGAffineTransformIdentity
-        
+        menuViewController.textButton.transform = CGAffineTransform.identity
+        menuViewController.textLabel.transform = CGAffineTransform.identity
+        menuViewController.quoteButton.transform = CGAffineTransform.identity
+        menuViewController.quoteLabel.transform = CGAffineTransform.identity
+        menuViewController.chatButton.transform = CGAffineTransform.identity
+        menuViewController.chatLabel.transform = CGAffineTransform.identity
+        menuViewController.photoButton.transform = CGAffineTransform.identity
+        menuViewController.photoLabel.transform = CGAffineTransform.identity
+        menuViewController.linkButton.transform = CGAffineTransform.identity
+        menuViewController.linkLabel.transform = CGAffineTransform.identity
+        menuViewController.audioButton.transform = CGAffineTransform.identity
+        menuViewController.audioLabel.transform = CGAffineTransform.identity
     }
     
-    
-    func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
+    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return 0.5
     }
     
     func animationControllerForPresentedController(presented: UIViewController, presentingController presenting: UIViewController, sourceController source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        
         self.presenting = true
         return self
-        
     }
     
     func animationControllerForDismissedController(dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        
         self.presenting = false
         return self
     }
-    
 }

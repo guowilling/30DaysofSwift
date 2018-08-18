@@ -12,26 +12,7 @@
 		9FB163E11C4BBA6D004B3E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB163DF1C4BBA6D004B3E4E /* Main.storyboard */; };
 		9FB163E31C4BBA6D004B3E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB163E21C4BBA6D004B3E4E /* Assets.xcassets */; };
 		9FB163E61C4BBA6D004B3E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB163E41C4BBA6D004B3E4E /* LaunchScreen.storyboard */; };
-		9FB163F11C4BBA6D004B3E4E /* LimitCharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB163F01C4BBA6D004B3E4E /* LimitCharactersTests.swift */; };
-		9FB163FC1C4BBA6D004B3E4E /* LimitCharactersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB163FB1C4BBA6D004B3E4E /* LimitCharactersUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9FB163ED1C4BBA6D004B3E4E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FB163D01C4BBA6D004B3E4E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FB163D71C4BBA6D004B3E4E;
-			remoteInfo = LimitCharacters;
-		};
-		9FB163F81C4BBA6D004B3E4E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FB163D01C4BBA6D004B3E4E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FB163D71C4BBA6D004B3E4E;
-			remoteInfo = LimitCharacters;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9FB163D81C4BBA6D004B3E4E /* LimitCharacters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LimitCharacters.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +22,10 @@
 		9FB163E21C4BBA6D004B3E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FB163E51C4BBA6D004B3E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FB163E71C4BBA6D004B3E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FB163EC1C4BBA6D004B3E4E /* LimitCharactersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LimitCharactersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FB163F01C4BBA6D004B3E4E /* LimitCharactersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitCharactersTests.swift; sourceTree = "<group>"; };
-		9FB163F21C4BBA6D004B3E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FB163F71C4BBA6D004B3E4E /* LimitCharactersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LimitCharactersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FB163FB1C4BBA6D004B3E4E /* LimitCharactersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitCharactersUITests.swift; sourceTree = "<group>"; };
-		9FB163FD1C4BBA6D004B3E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9FB163D51C4BBA6D004B3E4E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FB163E91C4BBA6D004B3E4E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FB163F41C4BBA6D004B3E4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				9FB163DA1C4BBA6D004B3E4E /* LimitCharacters */,
-				9FB163EF1C4BBA6D004B3E4E /* LimitCharactersTests */,
-				9FB163FA1C4BBA6D004B3E4E /* LimitCharactersUITests */,
 				9FB163D91C4BBA6D004B3E4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				9FB163D81C4BBA6D004B3E4E /* LimitCharacters.app */,
-				9FB163EC1C4BBA6D004B3E4E /* LimitCharactersTests.xctest */,
-				9FB163F71C4BBA6D004B3E4E /* LimitCharactersUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,24 +62,6 @@
 				9FB163E71C4BBA6D004B3E4E /* Info.plist */,
 			);
 			path = LimitCharacters;
-			sourceTree = "<group>";
-		};
-		9FB163EF1C4BBA6D004B3E4E /* LimitCharactersTests */ = {
-			isa = PBXGroup;
-			children = (
-				9FB163F01C4BBA6D004B3E4E /* LimitCharactersTests.swift */,
-				9FB163F21C4BBA6D004B3E4E /* Info.plist */,
-			);
-			path = LimitCharactersTests;
-			sourceTree = "<group>";
-		};
-		9FB163FA1C4BBA6D004B3E4E /* LimitCharactersUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9FB163FB1C4BBA6D004B3E4E /* LimitCharactersUITests.swift */,
-				9FB163FD1C4BBA6D004B3E4E /* Info.plist */,
-			);
-			path = LimitCharactersUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +84,6 @@
 			productReference = 9FB163D81C4BBA6D004B3E4E /* LimitCharacters.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9FB163EB1C4BBA6D004B3E4E /* LimitCharactersTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FB164031C4BBA6D004B3E4E /* Build configuration list for PBXNativeTarget "LimitCharactersTests" */;
-			buildPhases = (
-				9FB163E81C4BBA6D004B3E4E /* Sources */,
-				9FB163E91C4BBA6D004B3E4E /* Frameworks */,
-				9FB163EA1C4BBA6D004B3E4E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9FB163EE1C4BBA6D004B3E4E /* PBXTargetDependency */,
-			);
-			name = LimitCharactersTests;
-			productName = LimitCharactersTests;
-			productReference = 9FB163EC1C4BBA6D004B3E4E /* LimitCharactersTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9FB163F61C4BBA6D004B3E4E /* LimitCharactersUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FB164061C4BBA6D004B3E4E /* Build configuration list for PBXNativeTarget "LimitCharactersUITests" */;
-			buildPhases = (
-				9FB163F31C4BBA6D004B3E4E /* Sources */,
-				9FB163F41C4BBA6D004B3E4E /* Frameworks */,
-				9FB163F51C4BBA6D004B3E4E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9FB163F91C4BBA6D004B3E4E /* PBXTargetDependency */,
-			);
-			name = LimitCharactersUITests;
-			productName = LimitCharactersUITests;
-			productReference = 9FB163F71C4BBA6D004B3E4E /* LimitCharactersUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,14 +96,8 @@
 				TargetAttributes = {
 					9FB163D71C4BBA6D004B3E4E = {
 						CreatedOnToolsVersion = 7.2;
-					};
-					9FB163EB1C4BBA6D004B3E4E = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 9FB163D71C4BBA6D004B3E4E;
-					};
-					9FB163F61C4BBA6D004B3E4E = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 9FB163D71C4BBA6D004B3E4E;
+						DevelopmentTeam = L8C6M6B8E9;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -218,8 +115,6 @@
 			projectRoot = "";
 			targets = (
 				9FB163D71C4BBA6D004B3E4E /* LimitCharacters */,
-				9FB163EB1C4BBA6D004B3E4E /* LimitCharactersTests */,
-				9FB163F61C4BBA6D004B3E4E /* LimitCharactersUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +130,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FB163EA1C4BBA6D004B3E4E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FB163F51C4BBA6D004B3E4E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,36 +142,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FB163E81C4BBA6D004B3E4E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FB163F11C4BBA6D004B3E4E /* LimitCharactersTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FB163F31C4BBA6D004B3E4E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FB163FC1C4BBA6D004B3E4E /* LimitCharactersUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9FB163EE1C4BBA6D004B3E4E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FB163D71C4BBA6D004B3E4E /* LimitCharacters */;
-			targetProxy = 9FB163ED1C4BBA6D004B3E4E /* PBXContainerItemProxy */;
-		};
-		9FB163F91C4BBA6D004B3E4E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FB163D71C4BBA6D004B3E4E /* LimitCharacters */;
-			targetProxy = 9FB163F81C4BBA6D004B3E4E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9FB163DF1C4BBA6D004B3E4E /* Main.storyboard */ = {
@@ -397,10 +249,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L8C6M6B8E9;
 				INFOPLIST_FILE = LimitCharacters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.LimitCharacters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "41eaf476-bb76-4cb9-b2e9-b856cc3e9d97";
+				PROVISIONING_PROFILE_SPECIFIER = "PP For All";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -408,58 +265,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L8C6M6B8E9;
 				INFOPLIST_FILE = LimitCharacters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.LimitCharacters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		9FB164041C4BBA6D004B3E4E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = LimitCharactersTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.LimitCharactersTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LimitCharacters.app/LimitCharacters";
-			};
-			name = Debug;
-		};
-		9FB164051C4BBA6D004B3E4E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = LimitCharactersTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.LimitCharactersTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LimitCharacters.app/LimitCharacters";
-			};
-			name = Release;
-		};
-		9FB164071C4BBA6D004B3E4E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LimitCharactersUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.LimitCharactersUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = LimitCharacters;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		9FB164081C4BBA6D004B3E4E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LimitCharactersUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.LimitCharactersUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = LimitCharacters;
-				USES_XCTRUNNER = YES;
+				PROVISIONING_PROFILE = "41eaf476-bb76-4cb9-b2e9-b856cc3e9d97";
+				PROVISIONING_PROFILE_SPECIFIER = "PP For All";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -482,22 +296,7 @@
 				9FB164021C4BBA6D004B3E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		9FB164031C4BBA6D004B3E4E /* Build configuration list for PBXNativeTarget "LimitCharactersTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FB164041C4BBA6D004B3E4E /* Debug */,
-				9FB164051C4BBA6D004B3E4E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		9FB164061C4BBA6D004B3E4E /* Build configuration list for PBXNativeTarget "LimitCharactersUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FB164071C4BBA6D004B3E4E /* Debug */,
-				9FB164081C4BBA6D004B3E4E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
