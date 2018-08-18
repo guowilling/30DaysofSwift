@@ -11,30 +11,11 @@
 		9FC118FD1C4D5611007F9E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC118FB1C4D5611007F9E8D /* Main.storyboard */; };
 		9FC118FF1C4D5611007F9E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC118FE1C4D5611007F9E8D /* Assets.xcassets */; };
 		9FC119021C4D5611007F9E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC119001C4D5611007F9E8D /* LaunchScreen.storyboard */; };
-		9FC1190D1C4D5611007F9E8D /* animateTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1190C1C4D5611007F9E8D /* animateTableTests.swift */; };
-		9FC119181C4D5611007F9E8D /* animateTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC119171C4D5611007F9E8D /* animateTableUITests.swift */; };
 		9FC119261C4D56A2007F9E8D /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC119251C4D56A2007F9E8D /* FirstTableViewController.swift */; };
 		9FC119281C4D56B8007F9E8D /* AnimateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC119271C4D56B8007F9E8D /* AnimateTableViewController.swift */; };
 		9FC1192A1C4D574C007F9E8D /* FirstTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC119291C4D574C007F9E8D /* FirstTableCell.swift */; };
 		9FC1192C1C4D5976007F9E8D /* SecondTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1192B1C4D5976007F9E8D /* SecondTableCell.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9FC119091C4D5611007F9E8D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FC118EC1C4D5611007F9E8D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FC118F31C4D5611007F9E8D;
-			remoteInfo = animateTable;
-		};
-		9FC119141C4D5611007F9E8D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FC118EC1C4D5611007F9E8D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FC118F31C4D5611007F9E8D;
-			remoteInfo = animateTable;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9FC118F41C4D5611007F9E8D /* animateTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animateTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,12 +24,6 @@
 		9FC118FE1C4D5611007F9E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FC119011C4D5611007F9E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FC119031C4D5611007F9E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FC119081C4D5611007F9E8D /* animateTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animateTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FC1190C1C4D5611007F9E8D /* animateTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animateTableTests.swift; sourceTree = "<group>"; };
-		9FC1190E1C4D5611007F9E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FC119131C4D5611007F9E8D /* animateTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animateTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FC119171C4D5611007F9E8D /* animateTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animateTableUITests.swift; sourceTree = "<group>"; };
-		9FC119191C4D5611007F9E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FC119251C4D56A2007F9E8D /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 		9FC119271C4D56B8007F9E8D /* AnimateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateTableViewController.swift; sourceTree = "<group>"; };
 		9FC119291C4D574C007F9E8D /* FirstTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableCell.swift; sourceTree = "<group>"; };
@@ -63,20 +38,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FC119051C4D5611007F9E8D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FC119101C4D5611007F9E8D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				9FC118F61C4D5611007F9E8D /* animateTable */,
-				9FC1190B1C4D5611007F9E8D /* animateTableTests */,
-				9FC119161C4D5611007F9E8D /* animateTableUITests */,
 				9FC118F51C4D5611007F9E8D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				9FC118F41C4D5611007F9E8D /* animateTable.app */,
-				9FC119081C4D5611007F9E8D /* animateTableTests.xctest */,
-				9FC119131C4D5611007F9E8D /* animateTableUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,24 +71,6 @@
 				9FC119031C4D5611007F9E8D /* Info.plist */,
 			);
 			path = animateTable;
-			sourceTree = "<group>";
-		};
-		9FC1190B1C4D5611007F9E8D /* animateTableTests */ = {
-			isa = PBXGroup;
-			children = (
-				9FC1190C1C4D5611007F9E8D /* animateTableTests.swift */,
-				9FC1190E1C4D5611007F9E8D /* Info.plist */,
-			);
-			path = animateTableTests;
-			sourceTree = "<group>";
-		};
-		9FC119161C4D5611007F9E8D /* animateTableUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9FC119171C4D5611007F9E8D /* animateTableUITests.swift */,
-				9FC119191C4D5611007F9E8D /* Info.plist */,
-			);
-			path = animateTableUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,42 +93,6 @@
 			productReference = 9FC118F41C4D5611007F9E8D /* animateTable.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9FC119071C4D5611007F9E8D /* animateTableTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FC1191F1C4D5611007F9E8D /* Build configuration list for PBXNativeTarget "animateTableTests" */;
-			buildPhases = (
-				9FC119041C4D5611007F9E8D /* Sources */,
-				9FC119051C4D5611007F9E8D /* Frameworks */,
-				9FC119061C4D5611007F9E8D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9FC1190A1C4D5611007F9E8D /* PBXTargetDependency */,
-			);
-			name = animateTableTests;
-			productName = animateTableTests;
-			productReference = 9FC119081C4D5611007F9E8D /* animateTableTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9FC119121C4D5611007F9E8D /* animateTableUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FC119221C4D5611007F9E8D /* Build configuration list for PBXNativeTarget "animateTableUITests" */;
-			buildPhases = (
-				9FC1190F1C4D5611007F9E8D /* Sources */,
-				9FC119101C4D5611007F9E8D /* Frameworks */,
-				9FC119111C4D5611007F9E8D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9FC119151C4D5611007F9E8D /* PBXTargetDependency */,
-			);
-			name = animateTableUITests;
-			productName = animateTableUITests;
-			productReference = 9FC119131C4D5611007F9E8D /* animateTableUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,17 +105,9 @@
 				TargetAttributes = {
 					9FC118F31C4D5611007F9E8D = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = L8C6M6B8E9;
 						LastSwiftMigration = 0830;
-					};
-					9FC119071C4D5611007F9E8D = {
-						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0830;
-						TestTargetID = 9FC118F31C4D5611007F9E8D;
-					};
-					9FC119121C4D5611007F9E8D = {
-						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0830;
-						TestTargetID = 9FC118F31C4D5611007F9E8D;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -230,8 +125,6 @@
 			projectRoot = "";
 			targets = (
 				9FC118F31C4D5611007F9E8D /* animateTable */,
-				9FC119071C4D5611007F9E8D /* animateTableTests */,
-				9FC119121C4D5611007F9E8D /* animateTableUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,20 +137,6 @@
 				9FC119021C4D5611007F9E8D /* LaunchScreen.storyboard in Resources */,
 				9FC118FF1C4D5611007F9E8D /* Assets.xcassets in Resources */,
 				9FC118FD1C4D5611007F9E8D /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FC119061C4D5611007F9E8D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FC119111C4D5611007F9E8D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,36 +155,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FC119041C4D5611007F9E8D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FC1190D1C4D5611007F9E8D /* animateTableTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FC1190F1C4D5611007F9E8D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FC119181C4D5611007F9E8D /* animateTableUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9FC1190A1C4D5611007F9E8D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FC118F31C4D5611007F9E8D /* animateTable */;
-			targetProxy = 9FC119091C4D5611007F9E8D /* PBXContainerItemProxy */;
-		};
-		9FC119151C4D5611007F9E8D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FC118F31C4D5611007F9E8D /* animateTable */;
-			targetProxy = 9FC119141C4D5611007F9E8D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9FC118FB1C4D5611007F9E8D /* Main.storyboard */ = {
@@ -412,10 +262,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L8C6M6B8E9;
 				INFOPLIST_FILE = animateTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.animateTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "41eaf476-bb76-4cb9-b2e9-b856cc3e9d97";
+				PROVISIONING_PROFILE_SPECIFIER = "PP For All";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,63 +278,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L8C6M6B8E9;
 				INFOPLIST_FILE = animateTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.animateTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "41eaf476-bb76-4cb9-b2e9-b856cc3e9d97";
+				PROVISIONING_PROFILE_SPECIFIER = "PP For All";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		9FC119201C4D5611007F9E8D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = animateTableTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.animateTableTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animateTable.app/animateTable";
-			};
-			name = Debug;
-		};
-		9FC119211C4D5611007F9E8D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = animateTableTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.animateTableTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animateTable.app/animateTable";
-			};
-			name = Release;
-		};
-		9FC119231C4D5611007F9E8D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = animateTableUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.animateTableUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = animateTable;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		9FC119241C4D5611007F9E8D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = animateTableUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.animateTableUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = animateTable;
-				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
@@ -501,24 +307,6 @@
 			buildConfigurations = (
 				9FC1191D1C4D5611007F9E8D /* Debug */,
 				9FC1191E1C4D5611007F9E8D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FC1191F1C4D5611007F9E8D /* Build configuration list for PBXNativeTarget "animateTableTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FC119201C4D5611007F9E8D /* Debug */,
-				9FC119211C4D5611007F9E8D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FC119221C4D5611007F9E8D /* Build configuration list for PBXNativeTarget "animateTableUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FC119231C4D5611007F9E8D /* Debug */,
-				9FC119241C4D5611007F9E8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

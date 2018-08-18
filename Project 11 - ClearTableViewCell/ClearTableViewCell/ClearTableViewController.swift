@@ -15,12 +15,16 @@ class ClearTableViewController: UITableViewController {
                      "Test the Adobe Project Comet",
                      "Hop on a call to mom"]
     
+    let tableCellID = "tableCellID"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.view.backgroundColor = UIColor.black
+        
         self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none
         self.tableView.tableFooterView = UIView(frame: CGRect.zero)
-        self.tableView.register(TableViewCell.self, forCellReuseIdentifier: "tableCell")
+        self.tableView.register(TableViewCell.self, forCellReuseIdentifier: tableCellID)
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -32,7 +36,7 @@ class ClearTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "tableCell", for: indexPath) as! TableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: tableCellID, for: indexPath) as! TableViewCell
         cell.textLabel?.text = tableData[indexPath.row]
         cell.textLabel?.textColor = UIColor.white
         cell.textLabel?.backgroundColor = UIColor.clear

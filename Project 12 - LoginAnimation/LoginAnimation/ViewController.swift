@@ -49,9 +49,14 @@ class ViewController: UIViewController {
     @IBAction func loginButtonDidTouch(sender: UIButton) {
         let bounds = self.loginButton.bounds
         UIView.animate(withDuration: 1.0, delay: 0.0, usingSpringWithDamping: 0.2, initialSpringVelocity: 10, options: UIViewAnimationOptions.curveLinear, animations: {
-            self.loginButton.bounds = CGRect(x: bounds.origin.x - 20, y: bounds.origin.y, width: bounds.size.width + 60, height: bounds.size.height)
+            self.loginButton.bounds = CGRect(x: bounds.origin.x - 20,
+                                             y: bounds.origin.y,
+                                             width: bounds.size.width + 40,
+                                             height: bounds.size.height)
             self.loginButton.isEnabled = false
-        }, completion: { finished in self.loginButton.isEnabled = true })
+        }, completion: { finished in
+            self.loginButton.isEnabled = true
+        })
     }
     
     @IBAction func backButtonDidTouch(sender: AnyObject) {

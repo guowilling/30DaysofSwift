@@ -5,9 +5,9 @@ class Interest {
     // MARK: - Public
     var title = ""
     var description = ""
+    var featuredImage: UIImage!
     var numberOfMembers = 0
     var numberOfPosts = 0
-    var featuredImage: UIImage!
     
     init(title: String, description: String, featuredImage: UIImage!) {
         self.title = title

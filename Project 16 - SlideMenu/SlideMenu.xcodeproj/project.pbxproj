@@ -14,20 +14,9 @@
 		F4C1CF081A84F64E00728CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C1CF071A84F64E00728CAD /* AppDelegate.swift */; };
 		F4C1CF0D1A84F64E00728CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C1CF0B1A84F64E00728CAD /* Main.storyboard */; };
 		F4C1CF0F1A84F64E00728CAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C1CF0E1A84F64E00728CAD /* Images.xcassets */; };
-		F4C1CF1E1A84F64E00728CAD /* SlideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C1CF1D1A84F64E00728CAD /* SlideMenuTests.swift */; };
 		F4C1CF281A85B3C600728CAD /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C1CF271A85B3C600728CAD /* NewsTableViewController.swift */; };
 		F4C1CF2A1A85B99500728CAD /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C1CF291A85B99500728CAD /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F4C1CF181A84F64E00728CAD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F4C1CEFA1A84F64E00728CAD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F4C1CF011A84F64E00728CAD;
-			remoteInfo = SlideMenu;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9F2598031C51EA6F007B64C4 /* MenuTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTransitionManager.swift; sourceTree = "<group>"; };
@@ -39,22 +28,12 @@
 		F4C1CF071A84F64E00728CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4C1CF0C1A84F64E00728CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4C1CF0E1A84F64E00728CAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F4C1CF171A84F64E00728CAD /* SlideMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4C1CF1C1A84F64E00728CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4C1CF1D1A84F64E00728CAD /* SlideMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuTests.swift; sourceTree = "<group>"; };
 		F4C1CF271A85B3C600728CAD /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		F4C1CF291A85B99500728CAD /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F4C1CEFF1A84F64E00728CAD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4C1CF141A84F64E00728CAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				F4C1CF041A84F64E00728CAD /* SlideMenu */,
-				F4C1CF1A1A84F64E00728CAD /* SlideMenuTests */,
 				F4C1CF031A84F64E00728CAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				F4C1CF021A84F64E00728CAD /* SlideMenu.app */,
-				F4C1CF171A84F64E00728CAD /* SlideMenuTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,8 +64,8 @@
 			children = (
 				F4C1CF071A84F64E00728CAD /* AppDelegate.swift */,
 				F4C1CF271A85B3C600728CAD /* NewsTableViewController.swift */,
-				9F2598031C51EA6F007B64C4 /* MenuTransitionManager.swift */,
 				F4C1CF291A85B99500728CAD /* NewsTableViewCell.swift */,
+				9F2598031C51EA6F007B64C4 /* MenuTransitionManager.swift */,
 				F456196B1A8871DA00836A98 /* MenuTableViewController.swift */,
 				F456196D1A8872A800836A98 /* MenuTableViewCell.swift */,
 				F4C1CF0B1A84F64E00728CAD /* Main.storyboard */,
@@ -97,23 +74,6 @@
 				F4C1CF061A84F64E00728CAD /* Info.plist */,
 			);
 			path = SlideMenu;
-			sourceTree = "<group>";
-		};
-		F4C1CF1A1A84F64E00728CAD /* SlideMenuTests */ = {
-			isa = PBXGroup;
-			children = (
-				F4C1CF1D1A84F64E00728CAD /* SlideMenuTests.swift */,
-				F4C1CF1B1A84F64E00728CAD /* Supporting Files */,
-			);
-			path = SlideMenuTests;
-			sourceTree = "<group>";
-		};
-		F4C1CF1B1A84F64E00728CAD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F4C1CF1C1A84F64E00728CAD /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,24 +96,6 @@
 			productReference = F4C1CF021A84F64E00728CAD /* SlideMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F4C1CF161A84F64E00728CAD /* SlideMenuTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F4C1CF241A84F64E00728CAD /* Build configuration list for PBXNativeTarget "SlideMenuTests" */;
-			buildPhases = (
-				F4C1CF131A84F64E00728CAD /* Sources */,
-				F4C1CF141A84F64E00728CAD /* Frameworks */,
-				F4C1CF151A84F64E00728CAD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F4C1CF191A84F64E00728CAD /* PBXTargetDependency */,
-			);
-			name = SlideMenuTests;
-			productName = SlideMenuTests;
-			productReference = F4C1CF171A84F64E00728CAD /* SlideMenuTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -166,10 +108,8 @@
 				TargetAttributes = {
 					F4C1CF011A84F64E00728CAD = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					F4C1CF161A84F64E00728CAD = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = F4C1CF011A84F64E00728CAD;
+						DevelopmentTeam = L8C6M6B8E9;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -187,7 +127,6 @@
 			projectRoot = "";
 			targets = (
 				F4C1CF011A84F64E00728CAD /* SlideMenu */,
-				F4C1CF161A84F64E00728CAD /* SlideMenuTests */,
 			);
 		};
 /* End PBXProject section */
@@ -200,13 +139,6 @@
 				F4C1CF0D1A84F64E00728CAD /* Main.storyboard in Resources */,
 				9F2598061C521FFE007B64C4 /* LaunchScreen.storyboard in Resources */,
 				F4C1CF0F1A84F64E00728CAD /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4C1CF151A84F64E00728CAD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,23 +158,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4C1CF131A84F64E00728CAD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4C1CF1E1A84F64E00728CAD /* SlideMenuTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F4C1CF191A84F64E00728CAD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F4C1CF011A84F64E00728CAD /* SlideMenu */;
-			targetProxy = F4C1CF181A84F64E00728CAD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F4C1CF0B1A84F64E00728CAD /* Main.storyboard */ = {
@@ -338,10 +254,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L8C6M6B8E9;
 				INFOPLIST_FILE = SlideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "41eaf476-bb76-4cb9-b2e9-b856cc3e9d97";
+				PROVISIONING_PROFILE_SPECIFIER = "PP For All";
 			};
 			name = Debug;
 		};
@@ -349,46 +269,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L8C6M6B8E9;
 				INFOPLIST_FILE = SlideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F4C1CF251A84F64E00728CAD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SlideMenuTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideMenu.app/SlideMenu";
-			};
-			name = Debug;
-		};
-		F4C1CF261A84F64E00728CAD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SlideMenuTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appcoda.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideMenu.app/SlideMenu";
+				PROVISIONING_PROFILE = "41eaf476-bb76-4cb9-b2e9-b856cc3e9d97";
+				PROVISIONING_PROFILE_SPECIFIER = "PP For All";
 			};
 			name = Release;
 		};
@@ -409,15 +297,6 @@
 			buildConfigurations = (
 				F4C1CF221A84F64E00728CAD /* Debug */,
 				F4C1CF231A84F64E00728CAD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4C1CF241A84F64E00728CAD /* Build configuration list for PBXNativeTarget "SlideMenuTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4C1CF251A84F64E00728CAD /* Debug */,
-				F4C1CF261A84F64E00728CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
