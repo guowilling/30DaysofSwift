@@ -57,12 +57,13 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKJ-vx-y91">
-                                <rect key="frame" x="148" y="542" width="80" height="100"/>
+                                <rect key="frame" x="113" y="573" width="150" height="100"/>
                                 <color key="backgroundColor" red="0.9244391918182373" green="0.94930678606033325" blue="0.038394749164581299" alpha="0.95786741214057503" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="9K8-ga-cTt"/>
+                                    <constraint firstAttribute="width" constant="150" id="9jz-Vp-eOh"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
                                 <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                 <state key="normal" title="Change Font">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -79,7 +80,7 @@
                             <constraint firstItem="KGv-Km-M05" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bye-Vp-gej"/>
                             <constraint firstItem="YKJ-vx-y91" firstAttribute="top" secondItem="KGv-Km-M05" secondAttribute="bottom" constant="71" id="egM-fL-Hhh"/>
                             <constraint firstAttribute="trailing" secondItem="KGv-Km-M05" secondAttribute="trailing" id="hkI-LV-s02"/>
-                            <constraint firstItem="YKJ-vx-y91" firstAttribute="top" secondItem="KGv-Km-M05" secondAttribute="bottom" constant="19" id="sM0-oV-mvs"/>
+                            <constraint firstItem="YKJ-vx-y91" firstAttribute="top" secondItem="KGv-Km-M05" secondAttribute="bottom" constant="50" id="sM0-oV-mvs"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">

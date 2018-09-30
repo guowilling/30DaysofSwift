@@ -3,6 +3,7 @@ import UIKit
 
 
 class ViewController: UIViewController {
+    
     @IBOutlet weak var playBtn: UIButton!
     @IBOutlet weak var pauseBtn: UIButton!
     @IBOutlet weak var timeLabel: UILabel!
@@ -11,7 +12,11 @@ class ViewController: UIViewController {
     var counter = 0.0
     var isPlaying = false
     
-    func preferredStatusBarStyle() -> UIStatusBarStyle {
+//    override var prefersStatusBarHidden: Bool {
+//        return true
+//    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
         return UIStatusBarStyle.lightContent
     }
 
@@ -22,7 +27,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func playButtonDidTouch(_ sender: UIButton) {
-        if(isPlaying) {
+        if (isPlaying) {
             return
         }
         playBtn.isEnabled = false
@@ -30,7 +35,8 @@ class ViewController: UIViewController {
         timer = Timer.scheduledTimer(timeInterval: 0.1,
                                      target: self,
                                      selector: #selector(ViewController.UpdateTimer),
-                                     userInfo: nil, repeats: true)
+                                     userInfo: nil,
+                                     repeats: true)
         isPlaying = true
     }
     
@@ -42,10 +48,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func resetButtonDidTouch(_ sender: UIButton) {
-        timer.invalidate()
-        playBtn.isEnabled = true
-        pauseBtn.isEnabled = true
-        isPlaying = false
+        pauseButtonDidTouch(pauseBtn)
         counter = 0
         timeLabel.text = String(counter)
     }

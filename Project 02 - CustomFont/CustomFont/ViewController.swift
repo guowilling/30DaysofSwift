@@ -2,6 +2,7 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
     var data = ["30 Days Swift",
                 "这些字体特别适合打「奋斗」和「理想」",
                 "谢谢「造字工房」，本案例不涉及商业使用",

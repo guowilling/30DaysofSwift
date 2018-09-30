@@ -271,7 +271,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = L8C6M6B8E9;
 				INFOPLIST_FILE = StopWatch/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.StopWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,7 +287,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = L8C6M6B8E9;
 				INFOPLIST_FILE = StopWatch/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.appkitchen.StopWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";

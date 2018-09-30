@@ -26,14 +26,17 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NrM-kS-GRc">
                                 <rect key="frame" x="0.0" y="44" width="375" height="316.66666666666669"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PgZ-tJ-umJ">
-                                        <rect key="frame" x="249" y="26" width="112" height="36"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PgZ-tJ-umJ">
+                                        <rect key="frame" x="265" y="10" width="100" height="25"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="Ket-Br-eex"/>
+                                            <constraint firstAttribute="width" constant="100" id="d1i-id-os4"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <state key="normal" title="Reset">
-                                            <color key="titleColor" red="0.99987119436264038" green="0.99998223781585693" blue="0.99984109401702881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="resetButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rCT-x3-lAO"/>
@@ -45,13 +48,15 @@
                                             <constraint firstAttribute="height" constant="137" id="RYO-79-RXB"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="100"/>
-                                        <color key="textColor" red="0.99987119436264038" green="0.99998223781585693" blue="0.99984109401702881" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="mHC-bT-4Ze" firstAttribute="centerX" secondItem="NrM-kS-GRc" secondAttribute="centerX" id="MDK-YB-54R"/>
+                                    <constraint firstItem="PgZ-tJ-umJ" firstAttribute="top" secondItem="NrM-kS-GRc" secondAttribute="top" constant="10" id="NDF-ZF-gcB"/>
+                                    <constraint firstAttribute="trailing" secondItem="PgZ-tJ-umJ" secondAttribute="trailing" constant="10" id="P4T-lz-3uf"/>
                                     <constraint firstItem="mHC-bT-4Ze" firstAttribute="centerY" secondItem="NrM-kS-GRc" secondAttribute="centerY" id="TpR-Wm-zll"/>
                                 </constraints>
                             </view>
@@ -76,7 +81,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.036564279347658157" green="0.0072344690561294556" blue="0.13484750688076019" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="NrM-kS-GRc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="6t1-nN-GMx"/>
                             <constraint firstItem="qLk-wD-lav" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-15" id="7Ae-Qw-p16"/>
@@ -100,7 +105,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="119" y="313"/>
+            <point key="canvasLocation" x="-337" y="313"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PXT-qt-MaM">
+            <objects>
+                <viewController id="rFI-fK-6Ui" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CC9-XS-rX0"/>
+                        <viewControllerLayoutGuide type="bottom" id="RUl-jF-EHG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kbs-N5-xSq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sT4-Cq-pdg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748" y="267"/>
         </scene>
     </scenes>
     <resources>
